@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('2151120904.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: 110% 5%;
+}
+
+nav {
+    background-color: rgba(85, 85, 85, 0.489);
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-login {
+  display: -ms-inline-grid;
+  padding: 10px 20px;
+  background-color: #ffffff00;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline-style: solid;
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+
+.content {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.content h1 {
+    color: #ffffff;
+    font-size: 60px; 
+    font-family: "Josefin Sans", sans-serif; 
+}
+
+.content p {
+    color: #ffffff;
+    line-height: 3 ;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #a7a7a7,
+   -1px 1px 0 #00000000,
+    1px 1px 0 #00000000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #353793;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+.menu-icon {
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    top: 20px; 
+    right: 40px; 
+    cursor: pointer;
+    z-index: 1000; 
+  }
+  
+  .line {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transition: transform 0.3s ease;
+  }
+  
+  .line:nth-child(1) {
+    top: 0;
+  }
+  
+  .line:nth-child(2) {
+    top: 8px;
+  }
+  
+  .line:nth-child(3) {
+    top: 16px;
+  }
+  
+  .menu-icon.open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .menu-icon.open .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  
+
+
+
+
+  
+  
